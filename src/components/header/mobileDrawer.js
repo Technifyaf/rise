@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Button, Box } from 'theme-ui';
+import { Button, Box ,Text} from 'theme-ui';
 import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
 import { DrawerContext } from 'contexts/drawer/drawer.context';
@@ -35,7 +35,9 @@ const MobileDrawer = () => {
     >
       <Scrollbars autoHide>
         <Box sx={styles.content}>
-          <Logo src={LogoDark} />
+        <a sx={styles.link} href ="/">
+         <Text > Rise international</Text>
+         </a> 
           <Box sx={styles.menu}>
             {menuItems.map(({ path, label }, i) => (
               <Link path={path} key={i} label={label} sx={styles.menu.link} />
@@ -44,7 +46,7 @@ const MobileDrawer = () => {
 
           <Box sx={styles.menuFooter}>
             <Button variant="primary" sx={styles.button}>
-              Try for Free
+             Donate
             </Button>
           </Box>
         </Box>
