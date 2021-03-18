@@ -29,7 +29,7 @@ export default function IndexPage() {
             />
             <Banner />
           
-            <CtaTwo/>
+           
             <CtaThree/>
             <FAQ/>
          
