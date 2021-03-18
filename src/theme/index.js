@@ -3,11 +3,11 @@ export default {
   breakpoints: ['376px', '576px', '768px', '992px', '1200px', '1441px'],
   colors: {
     text: '#343D48', // body color and primary color
-    text_secondary: '#02073E', // secondary body color
+    text_secondary: '#FFFFFF', // secondary body color
     heading: '#0F2137', // primary heading color
     heading_secondary: '#343D48', // heading color
     background: '#FFFFFF', // body background color
-    background_secondary: '#F9FBFD', // secondary background color
+    background_secondary: '#FF8319', // secondary background color
     border_color: '#E9EDF5', // border color
     primary: '#FF8319', // primary button and link color
     primaryLight: '#FCF2E8',
@@ -356,4 +356,6 @@ export default {
       whiteSpace: 'nowrap !important',
     },
   },
+  space: [0, 5, 10, 15, 20, 25, 30, 50, 80, 100, 120, 150],
+
 };

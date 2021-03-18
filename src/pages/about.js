@@ -5,6 +5,7 @@ import Layout from 'components/layout';
 import SEO from 'components/seo';
 import Banner from 'sections/banner';
 import SecondaryBanner from 'sections/secondary-banner';
+import Team from 'sections/team';
 export default function About() {
     return (
       <ThemeProvider theme={theme}>
@@ -16,6 +17,7 @@ export default function About() {
                 title="Rise international"
               />
              <SecondaryBanner/>
+             <Team/>
           
             </Layout>
          

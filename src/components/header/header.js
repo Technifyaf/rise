@@ -34,7 +34,7 @@ export default function Header({ className }) {
              </ul>
             ))}
           </Flex>
-          <Link 	href='/'>
+          <Link 	href='/donate'>
           <Button
 					
 						ml={2}

@@ -15,6 +15,7 @@ import Pricing from 'sections/pricing';
 import PopularCourse from 'sections/popular-course';
 import CtaThree from 'sections/cta-three';
 import FavoriteCourse from 'sections/favorite-course';
+import SecondaryBanner from 'sections/secondary-banner';
 
 export default function IndexPage() {
   return (
@@ -27,6 +28,12 @@ export default function IndexPage() {
               title="Rise international"
             />
             <Banner />
+          
+            <CtaTwo/>
+            <CtaThree/>
+            <FAQ/>
+         
+         
             <Modal/>
         
           </Layout>

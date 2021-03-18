@@ -20,9 +20,9 @@ const CtaTwo = () => {
             <Box sx={styles.ctaTwo.content}>
               <BlockTitle
                 sx={styles.ctaTwo.blockTitle}
-                tagline="Free tutorial"
+                tagline="Our philosophy"
                 heading={
-                  'More than thousand \n of free tutorial upload \n every weeks'
+                  'Rise can help break the cycle of poverty through economic development'
                 }
               />
               <Text as="p" sx={styles.ctaTwo.text}>
@@ -32,7 +32,7 @@ const CtaTwo = () => {
               </Text>
               <Link
                 path="#"
-                label="Explore details"
+                label="View Projects"
                 variant="buttons.primary"
               />
             </Box>
@@ -91,7 +91,7 @@ const styles = {
       marginBottom: [20, null, null, 30],
 
       h3: {
-        fontSize: ['24px', null, null, '36px', null, '48px'],
+        fontSize: ['24px', null, null, '36px', null, '36px'],
         lineHeight: 1.15,
         letterSpacing: ['-0.5px', null, null, '-1.5px'],
         whiteSpace: ['normal', null, null, null, null, 'pre-line'],
@@ -100,7 +100,7 @@ const styles = {
     text: {
       fontSize: [15, null, null, 18],
       lineHeight: 2.33,
-      color: 'black',
+      color: 'text',
       marginBottom: 25,
       mb: [20, null, null, null, null],
       whiteSpace: ['normal', null, null, null, 'pre-line'],

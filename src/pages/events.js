@@ -5,6 +5,7 @@ import Layout from 'components/layout';
 import SEO from 'components/seo';
 import Banner from 'sections/banner';
 import SecondaryBanner from 'sections/secondary-banner';
+import EventSection from 'sections/event-section';
 export default function Events() {
     return (
       <ThemeProvider theme={theme}>
@@ -16,6 +17,7 @@ export default function Events() {
                 title="Rise international"
               />
              <SecondaryBanner/>
+             <EventSection/>
           
             </Layout>
          

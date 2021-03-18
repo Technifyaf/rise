@@ -12,10 +12,10 @@ const CtaThree = () => {
             <Box className="my-auto">
               <Box sx={styles.ctaThree.content}>
                 <BlockTitle
-                  sx={styles.ctaThree.blockTitle}
-                  tagline="Core features"
+                  //sx={styles.ctaThree.blockTitle}
+                  tagline="Milestones"
                   heading={
-                    'Smart Jackpots \n that you may love this \n anytime & anywhere'
+                    'Our Progress so far'
                   }
                 />
                 <Text as="p">
@@ -37,14 +37,14 @@ const CtaThree = () => {
                 <Heading as="h3" sx={styles.ctaThree.color1}>
                   80K+
                 </Heading>
-                <Text as="p">{'We have more than \n students'}</Text>
+                <Text as="p">{'Graduated  \n fellows'}</Text>
               </Box>
               <Box sx={styles.ctaThree.box}>
                 <Heading sx={styles.ctaThree.color2} as="h3">
                   150+
                 </Heading>
                 <Text as="p">
-                  {'Free online tutorials \n videos avaialble'}
+                  {'Projects completed'}
                 </Text>
               </Box>
               <Box sx={styles.ctaThree.box}>
@@ -55,10 +55,10 @@ const CtaThree = () => {
               </Box>
               <Box sx={styles.ctaThree.box}>
                 <Heading sx={styles.ctaThree.color4} as="h3">
-                  & 3M
+                   26 
                 </Heading>
                 <Text as="p">
-                  {'Job posted everydays \n with  qualification'}
+                  {'International sponsors'}
                 </Text>
               </Box>
             </Grid>
@@ -73,7 +73,7 @@ export default CtaThree;
 
 const styles = {
   ctaThree: {
-    paddingTop: [0, null, null, null, 50, 120],
+    paddingTop: [0, null, null, null, 50, 20],
     paddingBottom: [120, null, null, null, 100, 220],
     row: {
       display: 'flex',

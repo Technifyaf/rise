@@ -5,6 +5,7 @@ import Layout from 'components/layout';
 import SEO from 'components/seo';
 import Banner from 'sections/banner';
 import SecondaryBanner from 'sections/secondary-banner';
+import Articles from 'sections/articles';
 export default function News() {
     return (
       <ThemeProvider theme={theme}>
@@ -16,6 +17,7 @@ export default function News() {
                 title="Rise international"
               />
              <SecondaryBanner/>
+             <Articles/>
           
             </Layout>
          

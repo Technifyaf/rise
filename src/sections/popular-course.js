@@ -3,6 +3,7 @@ import React from 'react';
 import BlockTitle from 'components/block-title';
 import PopularCard from 'components/popular-card';
 
+
 const popularCourseData = [
   {
     title:

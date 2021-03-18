@@ -9,7 +9,7 @@ export default [
   },
   {
     path: 'news',
-    label: 'news',
+    label: 'News',
   },
   {
     path: '/getinvolved',

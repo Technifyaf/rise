@@ -5,6 +5,7 @@ import Layout from 'components/layout';
 import SEO from 'components/seo';
 import Banner from 'sections/banner';
 import SecondaryBanner from 'sections/secondary-banner';
+import Opportunities from 'sections/opportunities';
 export default function GetInvolvoed() {
     return (
       <ThemeProvider theme={theme}>
@@ -16,6 +17,7 @@ export default function GetInvolvoed() {
                 title="Rise international"
               />
              <SecondaryBanner/>
+             <Opportunities/>
           
             </Layout>
          

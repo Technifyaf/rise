@@ -3,10 +3,9 @@ import { StickyProvider } from 'contexts/app/app.provider';
 import theme from 'theme';
 import Layout from 'components/layout';
 import SEO from 'components/seo';
-import Banner from 'sections/banner';
 import SecondaryBanner from 'sections/secondary-banner';
-import ProgramsSection from 'sections/programs';
-export default function Programs() {
+import Form from 'sections/donation-form-section';
+export default function Donate() {
     return (
       <ThemeProvider theme={theme}>
         <StickyProvider>
@@ -17,8 +16,8 @@ export default function Programs() {
                 title="Rise international"
               />
              <SecondaryBanner/>
-            <ProgramsSection/>
-
+             <Form/>
+             
           
             </Layout>
          

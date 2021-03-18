@@ -1,12 +1,15 @@
 import { Button } from 'theme-ui';
 import React from 'react';
 import { FaPlay } from 'react-icons/fa';
-import { useVideoDispatch } from 'contexts/video/video.provider';
+import { useVideoDispatch } from '../contexts/video/video.provider'
+
+
 
 const VideoBtn = (props) => {
   const dispatch = useVideoDispatch();
   const handleVideoOpen = () => {
     dispatch({ type: 'SET_OPEN', url: props.path });
+
   };
   return (
     <Button

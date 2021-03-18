@@ -38,6 +38,7 @@ import {
   
   const styles = {
     banner: {
+      height :'400px',
       overflowX: 'hidden',
       paddingTop: ['100px', '120px'],
       paddingBottom: ['0px', null, '80px'],
@@ -49,6 +50,7 @@ import {
       backgroundRepeat: 'no-repeat',
       container: {
         maxWidth: ['100%', null, null, null, null, '1240px', '1440px'],
+      
       },
       row: {
         flexWrap: 'wrap',

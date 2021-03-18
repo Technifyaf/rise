@@ -50,7 +50,7 @@ const Banner = () => {
             </Box>
               <Box sx={styles.banner.partner}>
                 <span>Sponsored by:</span>
-                <Image src={PartnerImage} alt="banner image" />
+              
               </Box>
             </Box>
           </Box>

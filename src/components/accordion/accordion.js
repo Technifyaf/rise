@@ -25,7 +25,7 @@ export default function Accordion({ items, ...props }) {
               key={item.title}
               isOpen={openIndexes.includes(index)}
             >
-              <AccordionButton onClick={() => handleItemClick(index)}>
+              <AccordionButton sx={styles.button} onClick={() => handleItemClick(index)}>
                 <span>
                   {openIndexes.includes(index) ? openIcon : closeIcon}
                 </span>
@@ -40,4 +40,9 @@ export default function Accordion({ items, ...props }) {
       )}
     </BaseAccordion>
   );
+}
+const styles = {
+  button : {
+
+  }
 }
